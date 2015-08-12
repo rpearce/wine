@@ -5,7 +5,6 @@ gem 'rails', '4.2.3'
 gem 'browserify-rails', '1.4.0'
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
-#gem 'tilt'
 
 group :development, :test do
   gem 'coffee-rails', '~> 4.1.0'
