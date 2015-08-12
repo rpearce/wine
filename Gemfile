@@ -2,12 +2,10 @@ source 'https://rubygems.org'
 ruby '2.2.2'
 
 gem 'rails', '4.2.3'
-gem 'browserify-rails'
-gem 'pg'
-gem 'tilt' # because browserify-rails is a fool in production
-
+gem 'browserify-rails', '1.4.0'
 gem 'jbuilder', '~> 2.0'
-#gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'pg'
+#gem 'tilt'
 
 group :development, :test do
   gem 'coffee-rails', '~> 4.1.0'
@@ -17,4 +15,3 @@ group :development, :test do
   gem 'uglifier', '>= 1.3.0'
   gem 'web-console', '~> 2.0'
 end
-
