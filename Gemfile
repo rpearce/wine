@@ -4,7 +4,7 @@ ruby '2.2.2'
 gem 'rails', '4.2.3'
 gem 'browserify-rails'
 gem 'pg'
-gem 'tilt'
+gem 'tilt' # because browserify-rails is a fool in production
 
 gem 'jbuilder', '~> 2.0'
 #gem 'sdoc', '~> 0.4.0', group: :doc
